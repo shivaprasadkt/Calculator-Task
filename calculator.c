@@ -1,4 +1,5 @@
 #include<Stdio.h>
+#include<math.h>
 
 int Addnum(int a,int b){
     return a+b;
@@ -18,4 +19,8 @@ int Divnum(int a,int b){
     }
     printf("Division by zero is not possible!!!");
     return ;
+}
+
+int Expnum(int a,int b){
+    return pow(a,b);
 }
